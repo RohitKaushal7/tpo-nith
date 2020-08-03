@@ -116,6 +116,35 @@ body {
   background: #ddd;
 }
 
+.contact-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact-cards .card {
+  margin: 1em;
+  max-width: 16em;
+}
+
+.contact-cards .card .card-title {
+  font-size: 1.2em;
+}
+
+.contact-cards .card .sub-heading {
+  line-height: 1.2em;
+}
+
+.contact-cards .card .dept {
+  font-size: 0.8em;
+}
+
+.contact-cards .card .contact-details {
+  margin-top: 1em;
+  font-size: 0.8em !important;
+  color: #333;
+}
+
 .timeline {
   width: 100%;
 }

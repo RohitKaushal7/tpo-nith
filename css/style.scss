@@ -95,6 +95,28 @@ body{
     }
 }
 
+.contact-cards{
+    display: flex;
+    .card{
+        margin: 1em;
+        max-width: 16em;
+        .card-title{
+            font-size: 1.2em;
+        }
+        .sub-heading{
+            line-height: 1.2em;
+        }
+        .dept{
+            font-size: 0.8em;
+        }
+        .contact-details{
+            margin-top: 1em;
+            font-size: 0.8em !important;
+            color: #333;
+        }
+    }
+}
+
 .timeline{
     width: 100%;
     img {
